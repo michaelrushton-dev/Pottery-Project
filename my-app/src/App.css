@@ -2,3 +2,8 @@
     text-align: center;
     font-family: "Comfortaa", sans-serif;
 }
+
+#main-feed {
+    display: flex;
+    flex-direction: column;
+}

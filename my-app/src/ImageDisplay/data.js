@@ -1,5 +1,6 @@
 export const data = [
     {
+        id: 1,
         name: "bluetit",
         claytype: "earthenwear",
         description: "a lovely little bluetit",
@@ -10,6 +11,7 @@ export const data = [
         image: "../images/bluetit.jpg",
     },
     {
+        id: 2,
         name: "bowl",
         claytype: "stonewear",
         description: "an earthy bowl",
@@ -20,6 +22,7 @@ export const data = [
         image: "../images/bowl.jpg",
     },
     {
+        id: 3,
         name: "face",
         claytype: "stonewear",
         description: "a peaceful, sleeping face",
@@ -30,6 +33,7 @@ export const data = [
         image: "../images/face.jpg",
     },
     {
+        id: 4,
         name: "fish",
         claytype: "earthenwear",
         description: "a happy, cheeky fish",
