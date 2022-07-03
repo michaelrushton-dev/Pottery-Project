@@ -1,3 +1,7 @@
+import { data } from "../data.js";
 export function MainFeed() {
-    return <h2>main feed goes here</h2>;
+    const feedItems = data.map((item) => (
+        <img src={item.image} alt={item.description} />
+    ));
+    return <ol>{feedItems}</ol>;
 }
