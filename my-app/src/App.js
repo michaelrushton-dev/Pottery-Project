@@ -9,6 +9,7 @@ function App() {
             <button>+</button>
             <FeaturedImage />
             <MainFeed />
+            <button>hello world</button>
         </div>
     );
 }

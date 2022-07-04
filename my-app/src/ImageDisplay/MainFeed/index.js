@@ -1,3 +1,4 @@
+import pic from "../images/bluetit.jpg";
 import { data } from "../data.js";
 export function MainFeed() {
     const feedItems = data.map((item) => (
